@@ -160,7 +160,7 @@ export default function App() {
                         </motion.div>
                         <div className="grid md:grid-cols-3 gap-8">
                            {[
-                                { name: "Spiritus", title: "The Global Mental Health Network", description: "Our foundational stage. A unified platform connecting therapists, clinics, and hospitals worldwide to create an accessible, seamless network for mental healthcare.", icon: Stethoscope },
+                                { name: "Vespera", title: "The Global Mental Health Network", description: "Our foundational stage. A unified platform connecting therapists, clinics, and hospitals worldwide to create an accessible, seamless network for mental healthcare.", icon: Stethoscope },
                                 { name: "Vespera", title: "The All-in-One Health System", description: "The expansion into a complete health ecosystem. Manage appointments, medical records, prescriptions, insurance, and even transportation with a single, universal Vespera ID.", icon: Hospital },
                                 { name: "Angelus", title: "The Future of Biotechnology", description: "The ultimate frontier. Pioneering gene editing, cellular agriculture, and novel bio-engineering to eliminate disease and create a sustainable future for humanity.", icon: Dna },
                            ].map((stage, i) => (
@@ -251,7 +251,7 @@ export default function App() {
                         </div>
 
                         <div className="flex justify-center space-x-6 md:space-x-8 mb-6 text-sm">
-                            <a href="/" className="gradient-text font-bold transition-colors">Spiritus</a>
+                            <a href="/" className="gradient-text font-bold transition-colors">Vespera</a>
                             <Link to="/neha" style={{
                                                                 background:
                                                                     "linear-gradient(89.58deg, #3186FF 0.28%, #346BF0 44.45%, #4EA0FF 99.55%)",

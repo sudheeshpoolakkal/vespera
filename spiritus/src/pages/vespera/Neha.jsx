@@ -458,7 +458,7 @@ Your Analysis:`;
                             }}
                             className="font-bold"
                         >
-                            Spiritus
+                            Vespera
                         </Link>
                     </nav>
                 </header>
@@ -958,7 +958,7 @@ Your Analysis:`;
                                 }}
                                 className="font-bold"
                             >
-                                Spiritus
+                                Vespera
                             </Link>
                             <Link to="/vespera" style={{
                                 background:

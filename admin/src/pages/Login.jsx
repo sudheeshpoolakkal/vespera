@@ -49,7 +49,7 @@ function Login() {
     >
       {/* Optional cross button to navigate back */}
       <button
-  onClick={() => window.location.href = "https://spiritus.vercel.app/"}
+  onClick={() => window.location.href = "https://vespera.vercel.app/"}
   className="absolute top-12 right-12 bg-gray-600 text-white w-10 h-10 rounded-full flex items-center justify-center hover:bg-gray-500 focus:outline-none"
 >
   <svg

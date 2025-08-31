@@ -187,7 +187,7 @@ const GetHelpNowPage = () => {
                     <strong>Updated on August 26, 2025</strong>
                   </p>
                   <p className="text-sm text-gray-600">
-                    Spiritus assumes no responsibility or liability for the professional ability, reputation, or quality of services provided by the entities or individuals listed above. Inclusion on this list does not constitute an endorsement by Spiritus. The order does not imply any ranking or evaluation. Spiritus cannot vouch for the contact information's accuracy. If you discover any inaccuracies in the contact information, please email us at{' '}
+                    Vespera assumes no responsibility or liability for the professional ability, reputation, or quality of services provided by the entities or individuals listed above. Inclusion on this list does not constitute an endorsement by Vespera. The order does not imply any ranking or evaluation. Vespera cannot vouch for the contact information's accuracy. If you discover any inaccuracies in the contact information, please email us at{' '}
                     <a href="mailto:sudheesh@duck.com" className="text-blue-600 hover:underline">
                       sudheesh@duck.com
                     </a>

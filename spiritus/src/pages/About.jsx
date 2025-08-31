@@ -37,7 +37,7 @@ const AboutUs = () => {
       Transforming Mental Health Care
     </h1>
     <p className="text-lg md:text-xl max-w-2xl">
-      At Spiritus, we believe therapy should be accessible, compassionate, and innovative.
+      At Vespera, we believe therapy should be accessible, compassionate, and innovative.
     </p>
   </div>
 </section>
@@ -54,7 +54,7 @@ const AboutUs = () => {
 
           <div className="text-lg text-gray-600 leading-relaxed">
             <p className="mb-6">
-            At Spiritus, our journey began in 2024—a moment when we recognized that the mind is a vast landscape of untapped potential and soulful wonder. Born from the yearning to transcend conventional boundaries, we envisioned a sanctuary where healing is a personal odyssey, accessible to all and intimately tailored to the unique rhythm of your inner world.
+            At Vespera, our journey began in 2024—a moment when we recognized that the mind is a vast landscape of untapped potential and soulful wonder. Born from the yearning to transcend conventional boundaries, we envisioned a sanctuary where healing is a personal odyssey, accessible to all and intimately tailored to the unique rhythm of your inner world.
             </p>
             <p className="mb-6">
             Today, as a global beacon of online therapy, our platform—guided by the wisdom of over 30,000 licensed therapists—serves as a haven for those seeking to rediscover themselves. We empower millions to embark on a transformative voyage of self-exploration, reclaiming the sacred art of mental well-being.
@@ -127,7 +127,7 @@ const AboutUs = () => {
       Embrace Your Journey Within
     </h2>
     <p className="text-lg mb-8">
-      Step into a realm of self-discovery and healing. At Spiritus, we nurture your path to inner peace through personalized, compassionate guidance.
+      Step into a realm of self-discovery and healing. At Vespera, we nurture your path to inner peace through personalized, compassionate guidance.
     </p>
     <button
       onClick={() => navigate("/login")}

@@ -45,7 +45,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-12">
           {/* About Section */}
           <div>
-            <h3 className="text-xs text-gray-900 font-semibold mb-4">About Spiritus</h3>
+            <h3 className="text-xs text-gray-900 font-semibold mb-4">About Vespera</h3>
             <p className="text-xs text-[#86868b] leading-relaxed">
               Empowering mental wellness through compassionate care and innovative solutions.
             </p>
@@ -74,7 +74,7 @@ const Footer = () => {
 
         <div className="border-t border-gray-200 pt-8">
           <p className="text-xs text-center text-[#100101]">
-            Copyright © {new Date().getFullYear()} Spiritus. All rights reserved.
+            Copyright © {new Date().getFullYear()} Vespera. All rights reserved.
           </p>
         </div>
       </div>

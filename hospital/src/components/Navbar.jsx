@@ -37,7 +37,7 @@ const Navbar = () => {
             }}
             className="tracking-wide ml-3 cursor-pointer transition-all duration-300 hover:scale-105"
           >
-            Spiritus
+            Vespera
           </span>
         </div>
             <p className='border px-2.5 py-0.5 rounded-full border-gray-500 text-gray-600'>Hospital</p>

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Star, Award, MapPin, Phone, Globe, Users, TrendingUp, Calendar, Heart, CheckCircle, Trophy, Medal, Crown } from 'lucide-react';
 
-const SpiritusAwards = () => {
+const VesperaAwards = () => {
   const [currentYear] = useState(2024);
   const [animatedStats, setAnimatedStats] = useState({
     hospitals: 0,
@@ -140,7 +140,7 @@ const SpiritusAwards = () => {
     <div className="flex justify-center items-center gap-5 mb-8">
       {/* <Award className="w-16 h-16 text-white drop-shadow-md" /> */}
       <h1 className="text-5xl md:text-6xl font-bold tracking-wide drop-shadow-lg">
-        Spiritus Awards
+        Vespera Awards
       </h1>
     </div>
 
@@ -378,4 +378,4 @@ const SpiritusAwards = () => {
   );
 };
 
-export default SpiritusAwards;
+export default VesperaAwards;

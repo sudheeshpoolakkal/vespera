@@ -76,14 +76,14 @@ const Application = () => {
   ];
 
   const comparisonData = [
-    { feature: 'Work online from anywhere', spiritus: true, traditional: false },
-    { feature: 'Set your own hours', spiritus: true, traditional: 'partial' },
-    { feature: 'See clients in-person (offline mode)', spiritus: true, traditional: true },
-    { feature: 'Client referrals', spiritus: true, traditional: false },
-    { feature: 'Clinical autonomy', spiritus: true, traditional: false },
-    { feature: 'Zero overhead expense', spiritus: true, traditional: false },
-    { feature: 'Compensation for phone calls, messages, emails, and video sessions', spiritus: true, traditional: false },
-    { feature: 'Clients from across the globe', spiritus: true, traditional: false }
+    { feature: 'Work online from anywhere', vespera: true, traditional: false },
+    { feature: 'Set your own hours', vespera: true, traditional: 'partial' },
+    { feature: 'See clients in-person (offline mode)', vespera: true, traditional: true },
+    { feature: 'Client referrals', vespera: true, traditional: false },
+    { feature: 'Clinical autonomy', vespera: true, traditional: false },
+    { feature: 'Zero overhead expense', vespera: true, traditional: false },
+    { feature: 'Compensation for phone calls, messages, emails, and video sessions', vespera: true, traditional: false },
+    { feature: 'Clients from across the globe', vespera: true, traditional: false }
   ];
 
   const benefits = [
@@ -116,22 +116,22 @@ const Application = () => {
   const testimonials = [
     {
       name: 'Dr. Sarah Johnson',
-      role: 'LMFT, 5 years with Spiritus',
-      text: 'Spiritus has transformed my practice. The platform provides excellent tools for client management while allowing me to maintain my clinical autonomy. The weekly payments and flexible scheduling have given me the work-life balance I always wanted.',
+      role: 'LMFT, 5 years with Vespera',
+      text: 'Vespera has transformed my practice. The platform provides excellent tools for client management while allowing me to maintain my clinical autonomy. The weekly payments and flexible scheduling have given me the work-life balance I always wanted.',
       rating: 5,
       image: 'SJ'
     },
     {
       name: 'Michael Chen',
-      role: 'LCSW, 3 years with Spiritus',
-      text: 'The transition to Spiritus was seamless. Their support team guided me through every step, and now I\'m earning 40% more than my previous private practice while working fewer hours. The client referral system is outstanding.',
+      role: 'LCSW, 3 years with Vespera',
+      text: 'The transition to Vespera was seamless. Their support team guided me through every step, and now I\'m earning 40% more than my previous private practice while working fewer hours. The client referral system is outstanding.',
       rating: 5,
       image: 'MC'
     },
     {
       name: 'Dr. Amanda Rodriguez',
-      role: 'Licensed Psychologist, 4 years with Spiritus',
-      text: 'As a working mother, Spiritus has provided me the flexibility to maintain my career while being present for my family. The platform is intuitive, secure, and the continuous education opportunities keep me at the top of my field.',
+      role: 'Licensed Psychologist, 4 years with Vespera',
+      text: 'As a working mother, Vespera has provided me the flexibility to maintain my career while being present for my family. The platform is intuitive, secure, and the continuous education opportunities keep me at the top of my field.',
       rating: 5,
       image: 'AR'
     }
@@ -263,7 +263,7 @@ const Application = () => {
         const interestedOptions = ['To build my own private practice', 'To supplement my private practice', 'To supplement my full-time job', 'To supplement my part-time job', 'Other'];
         return (
           <div className="bg-white p-6 rounded-xl shadow-md space-y-4">
-            <h3 className="text-lg font-bold text-gray-900">What makes you most interested in Spiritus?</h3>
+            <h3 className="text-lg font-bold text-gray-900">What makes you most interested in Vespera?</h3>
             {interestedOptions.map((opt) => (
               <div key={opt} className="flex items-center">
                 <input
@@ -293,7 +293,7 @@ const Application = () => {
         const timeOptions = ['Up to 5 hours a week', '5 to 10 hours a week', '10 to 20 hours a week', '20 to 30 hours a week', 'More than 30 hours a week', 'Not sure'];
         return (
           <div className="bg-white p-6 rounded-xl shadow-md space-y-4">
-            <h3 className="text-lg font-bold text-gray-900">How much time do you intend to spend with Spiritus clients?</h3>
+            <h3 className="text-lg font-bold text-gray-900">How much time do you intend to spend with Vespera clients?</h3>
             {timeOptions.map((opt) => (
               <div key={opt} className="flex items-center">
                 <input
@@ -323,7 +323,7 @@ const Application = () => {
         const hearOptions = ['Friend or colleague','Podcast', 'Internet Research', 'Email Outreach',  'Social Media', 'Other', ];
         return (
           <div className="bg-white p-6 rounded-xl shadow-md space-y-4">
-            <h3 className="text-lg font-bold text-gray-900">How did you first hear about Spiritus?</h3>
+            <h3 className="text-lg font-bold text-gray-900">How did you first hear about Vespera?</h3>
             {hearOptions.map((opt) => (
               <div key={opt} className="flex items-center">
                 <input
@@ -594,7 +594,7 @@ const Application = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold mb-4">
-              Why Choose Spiritus?
+              Why Choose Vespera?
             </h2>
             <p className="text-xl text-green-100 max-w-2xl mx-auto">
               See how our platform compares to traditional private practice
@@ -615,7 +615,7 @@ const Application = () => {
             }}
             className="tracking-wide ml-3 cursor-pointer transition-all duration-300 hover:scale-105"
           >
-            Spiritus
+            Vespera
           </span>
               <span
             
@@ -636,17 +636,17 @@ const Application = () => {
               <div key={index} className={`grid grid-cols-3 p-6 items-center ${index % 2 === 0 ? 'bg-gray-50' : 'bg-white'} border-b border-gray-100 last:border-b-0`}>
                 <div className="font-medium text-gray-800">{item.feature}</div>
                 <div className="text-center">
-                  {item.spiritus === true && (
+                  {item.vespera === true && (
                     <div className="inline-flex items-center justify-center w-8 h-8 bg-green-100 rounded-full">
                       <Check className="w-5 h-5 text-green-600" />
                     </div>
                   )}
-                  {item.spiritus === false && (
+                  {item.vespera === false && (
                     <div className="inline-flex items-center justify-center w-8 h-8 bg-red-100 rounded-full">
                       <X className="w-5 h-5 text-red-500" />
                     </div>
                   )}
-                  {item.spiritus === 'partial' && (
+                  {item.vespera === 'partial' && (
                     <div className="w-8 h-8 bg-yellow-400 rounded-full mx-auto"></div>
                   )}
                 </div>
@@ -695,7 +695,7 @@ const Application = () => {
               Trusted by Leading Professionals
             </h2>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-              Hear from therapists who have transformed their practice with Spiritus
+              Hear from therapists who have transformed their practice with Vespera
             </p>
           </div>
 

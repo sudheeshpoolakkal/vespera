@@ -40,7 +40,7 @@ const Navbar = () => {
                 }}
                 className="tracking-wide ml-3 cursor-pointer transition-all duration-300 hover:scale-105"
               >
-                Spiritus
+                Vespera
               </span>
               <span className="ml-2 px-2 py-0.5 text-white text-xs font-bold rounded-full uppercase tracking-wide transform translate-y-[-2px] hover:scale-90 transition-transform duration-200"
       style={{background: 'linear-gradient(89.58deg, #3186FF 0.28%, #346BF0 44.45%, #4EA0FF 99.55%)'}}>
@@ -142,7 +142,7 @@ const Navbar = () => {
                 style={{ fontFamily: '"Cormorant Garamond", serif' }}
                 className="text-xl font-medium ml-2 text-gray-800"
               >
-                Spiritus
+                Vespera
               </span>
               <span className="ml-2 px-1.5 py-0.5 bg-gradient-to-r from-blue-500 to-purple-600 text-white text-xs font-bold rounded-full uppercase tracking-wide shadow-sm">
                 Beta
