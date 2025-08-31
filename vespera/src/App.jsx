@@ -27,7 +27,7 @@ import HospitalDetails from './pages/HospitalDetails'
 import GetHelpNow from './pages/GetHelpNow'
 import Neha from './pages/vespera/Neha' 
 import Vespera from './pages/vespera/Vespera'
-import AIchip from '././pages/vespera/AIChip'
+import AIchip from './pages/vespera/AIChip'
 const App = () => {
   const location = useLocation();
 
